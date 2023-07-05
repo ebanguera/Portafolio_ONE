@@ -1,0 +1,8 @@
+.inicio__perfil{
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 368px;
+    background: url(./assest/img/profile.png), lightgray 50% / cover no-repeat;
+    
+}

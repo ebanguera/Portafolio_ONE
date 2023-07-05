@@ -1,0 +1,17 @@
+.sobre__mi__contenido{
+    display: flex;
+    width: 1136px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.sobre__mi__titulo{
+    font-size: 32px;
+    font-weight: 700;
+}
+.parrafos{
+    display: flex;
+    width: 751px;
+    flex-direction: column;
+    font-size: 16px;
+}

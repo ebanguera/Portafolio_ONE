@@ -1,0 +1,15 @@
+.inicio__redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    padding-inline-start: 0px;
+    list-style: none;
+    margin-inline-end: 20%;
+}
+
+.inicio__redes__item a{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}

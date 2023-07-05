@@ -1,0 +1,6 @@
+.inicio{
+    display: flex;
+    /* width: 1136px; */
+    justify-content: space-between;
+    
+}
