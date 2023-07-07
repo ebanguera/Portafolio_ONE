@@ -1,0 +1,54 @@
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EAF2FD;
+    padding: 20px;
+    align-self: stretch
+}
+
+.contacto h2{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    border-bottom: 2px solid #A2A2A2;
+}
+form input:-webkit-autofill{
+    box-shadow: 0 0 0px 1000px #fff inset;
+}
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f2f2f2;
+    color: #333;
+}
