@@ -6,9 +6,10 @@
     gap: 24px;
     flex-shrink: 0;
     order: -1;
-    /* width: fit-content; */
+    /* width: min-content; */
     flex-wrap: wrap;
     justify-content: center;
+    align-self: stretch;
 }
 
 .inicio__bio{
