@@ -56,6 +56,7 @@
 .img{
     width: calc(0.4 * 100vh);
     flex-shrink: 0;
+    height: calc(0.2 * 100vh);
 }
 
 .academic__courses__item__title{
