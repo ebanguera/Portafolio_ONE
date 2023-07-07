@@ -4,9 +4,12 @@
     align-items: center;
     background: #EAF2FD;
     padding: 20px;
-    align-self: stretch
+    align-self: stretch;
+    gap:32px;
 }
-
+#contacto{
+    align-self: stretch;
+}
 .contacto h2{
     font-size: 32px;
     font-style: normal;

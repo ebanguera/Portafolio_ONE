@@ -10,4 +10,12 @@ footer{
 footer p{
     margin-block-start: 0em;
     margin-block-end: 0.2em;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
