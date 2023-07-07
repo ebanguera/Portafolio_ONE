@@ -8,3 +8,9 @@ body{
     flex-direction: column;
     gap:32px;
 }
+
+@media  screen and (min-width:0) and (max-width:500px){
+    body{
+        gap:0px;
+    }
+}
