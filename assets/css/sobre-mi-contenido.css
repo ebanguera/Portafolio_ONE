@@ -13,21 +13,38 @@
     display: flex;
     flex-direction: column;
     font-size: 16px;
-    max-width: calc(100% - 20px);
 }
 
 .sobre__mi__parrafo{
     margin-block-start: 0em;
     margin-block-end: 0.5em;
+    text-align: justify;
 }
 
 .sobre__mi__parrafo a{
     text-decoration: none;
-    color: #464646;
-    transition: all 0.3s ease;
+    color: #464646
 }
 
-.sobre__mi__parrafo a:hover{
-    transform: translateY(-10px);
-    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.02); */
+@media  screen and (min-width:0) and (max-width:500px){
+    .sobre__mi__contenido{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: stretch;
+        /* align-content: center; */
+        flex-wrap: wrap;
+    }
+    .sobre__mi__titulo{
+        font-size: 22px;
+    }
+    .parrafos{
+        max-width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .sobre__mi__parrafo{
+        border:#464646;
+        text-align: justify;
+    }
 }
