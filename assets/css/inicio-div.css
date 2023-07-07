@@ -1,8 +1,19 @@
 .inicio__div{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     width: fit-content;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
+}
+
+@media  screen and (min-width:0) and (max-width:500px){
+    .inicio__div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-self: stretch;
+        align-items: flex-start;
+        padding: 10px;
+    }
 }

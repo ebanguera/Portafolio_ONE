@@ -4,3 +4,12 @@
     justify-content: space-between;
     
 }
+@media  screen and (min-width:0) and (max-width:500px){
+    .inicio{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        align-items: center;
+    }
+}
