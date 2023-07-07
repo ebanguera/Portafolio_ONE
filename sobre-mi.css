@@ -1,7 +1,7 @@
 .sobre__mi{
     display: flex;
     flex-direction: column;
-    padding: 64px;
+    padding: 64px 96px;
     align-items: center;
     align-self:normal;
     background: #EAF2FD;

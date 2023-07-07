@@ -1,6 +1,6 @@
 .sobre__mi__contenido{
     display: flex;
-    width: 1136px;
+    width: fit-content;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
@@ -19,4 +19,15 @@
 .sobre__mi__parrafo{
     margin-block-start: 0em;
     margin-block-end: 0.5em;
+}
+
+.sobre__mi__parrafo a{
+    text-decoration: none;
+    color: #464646;
+    transition: all 0.3s ease;
+}
+
+.sobre__mi__parrafo a:hover{
+    transform: translateY(-10px);
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.02); */
 }
