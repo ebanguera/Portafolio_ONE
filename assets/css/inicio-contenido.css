@@ -6,6 +6,9 @@
     gap: 24px;
     flex-shrink: 0;
     order: -1;
+    /* width: fit-content; */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .inicio__bio{

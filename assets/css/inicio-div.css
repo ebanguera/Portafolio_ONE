@@ -1,5 +1,8 @@
 .inicio__div{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+    width: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
 }
