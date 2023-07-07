@@ -24,7 +24,9 @@ li a:hover {
     align-items: center;
     gap: 32px;
     padding: 82px;
-    align-self: stretch;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
 .proyecto__titulo{
     font-size: 32px;
@@ -37,7 +39,9 @@ li a:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap:16px;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .proyectos__box{
     display: flex;
@@ -70,8 +74,7 @@ li a:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: calc(0.3 * 100vw);
-    height: calc(0.3 * 100vh);
+    height: calc(0.4 * 100vh);
 }
 
 .lista__proyectos a h3{
