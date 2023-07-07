@@ -8,3 +8,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media screen and (min-width:0){
+    .menu__list{
+        padding-inline-start: 0px;
+    }
+}
