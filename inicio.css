@@ -1,8 +1,7 @@
 .inicio{
     display: flex;
-    padding: 88px;
+    padding-top: 88px;
     justify-content: space-between;
-    
 }
 @media  screen and (min-width:0) and (max-width:500px){
     .inicio{
@@ -14,5 +13,6 @@
         padding-top: 15ch;
         padding-left: 20px;
         padding-right: 20px;
+        
     }
 }
