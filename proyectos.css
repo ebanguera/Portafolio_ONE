@@ -52,8 +52,12 @@ li a:hover {
     margin-block-start: 0em;
     margin-block-end: 0em;
     width: min-content;
+    transition: all 0.3s ease;
 }
-
+.proyectos__box:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.02);
+}
 .lista__proyectos{
     list-style: none;
     padding-inline-start: 0px;
