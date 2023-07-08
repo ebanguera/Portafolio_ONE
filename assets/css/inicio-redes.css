@@ -24,7 +24,7 @@
         align-items: flex-start;
         gap:10px;
         margin-block-start: 0em;
-        margin-block-end: 0em;
+        /* margin-block-end: 0em; */
     }
     .inicio__redes__item{
         display: flex;
