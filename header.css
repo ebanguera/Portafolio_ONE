@@ -4,9 +4,9 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    /* width: fit-content; */
+    position: fixed;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    background-color: rgb(241, 241, 241);
 }
 header nav{
     display: flex;
@@ -14,8 +14,16 @@ header nav{
 .header__name{
     display: flex;
     align-items: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
-
+section{
+    overflow: auto;
+    height: 100%;
+    
+    padding: 0% 1% 0% 1%;
+    
+}
 @media screen and (min-width:0) and (max-width:500px){
     header{
         justify-content: center;
