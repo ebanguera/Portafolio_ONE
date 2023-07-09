@@ -123,18 +123,40 @@ li a:hover {
 }
 
 @media screen and (min-width:0) and (max-width:500px){
+    .proyectos{
+        gap:40px;
+    }
     .proyecto{
         padding: 20px;
     }
     .proyecto__titulo{
         font-size: 22px;
     }
+    .container{
+        width: fit-content;
+        align-items: center;
+        align-self: stretch;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
     .container h3{
         font-size: 16px;
+        border-bottom: none;
+        padding: 10px;
+    }
+    .content{
+        position:relative;
+        width: fit-content;
+        background-color: transparent;
+        text-align: center;
+        bottom:0;
+        left: 0;
     }
     .container p{
         font-size: 14px;
         font-weight: 500;
+        
     }
     .img{
         width: calc(0.35 * 100vh);
