@@ -6,8 +6,11 @@ header{
     width: 100%;
     position: fixed;
     flex-wrap: wrap;
-    background-color: rgb(241, 241, 241);
     z-index: 1000;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
 }
 header nav{
     display: flex;
